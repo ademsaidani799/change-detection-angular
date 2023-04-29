@@ -15,8 +15,8 @@ export class AppComponent implements DoCheck {
   }
 
   ngDoCheck() {
-    console.log("Angular is checking for changes");
-    // console.log("Root component change detection");
+    // console.log("Angular is checking for changes");
+    console.log("Root component change detection");
   }
 
   onClick() {}
