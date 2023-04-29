@@ -15,7 +15,7 @@ export class ParentOneChildOneComponent implements DoCheck {
 
   ngDoCheck() {
     console.log(this.myStrArr);
-    this.cd.detectChanges();
+    // this.cd.detectChanges();
     console.log("Parent One Child One component change detection");
   }
 
